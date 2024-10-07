@@ -1,0 +1,12 @@
+This is to update to the latest release of debian..
+<^>
+sudo apt update && sudo apt upgrade -y
+*Replace all instances of "bullseye" with "bookworm"*
+sudo nano /etc/apt/sources.list
+sudo apt update
+sudo apt upgrade --without-new-pkgs
+sudo apt full-upgrade -y
+sudo reboot
+lsb_release -a
+
+*Replace all instances of "bullseye" with "bookworm"*
