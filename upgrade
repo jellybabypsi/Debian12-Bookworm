@@ -1,7 +1,8 @@
-This is to update to the latest release of debian..
+This is to update to the latest release of debian.. Debian 12 (Bookworm)
 <^>
 sudo apt update && sudo apt upgrade -y
-*Replace all instances of "bullseye" with "bookworm"*
+*You Have to Manually Replace all instances of the word "bullseye" in this file with "bookworm".*
+*there is 5 instances"*
 sudo nano /etc/apt/sources.list
 Delay: 90
 sudo apt update
@@ -9,5 +10,3 @@ sudo apt upgrade --without-new-pkgs
 sudo apt full-upgrade -y
 sudo reboot
 lsb_release -a
-
-*Replace all instances of "bullseye" with "bookworm"*
